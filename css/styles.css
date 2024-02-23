@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", "Raleway",
+    font-family: "Roboto",
         sans-serif;
     color:#434455 ;
     background-color: #FFFFFF;
@@ -41,6 +41,10 @@ color: #2E2F42;
 color:#404BBF;
 text-decoration: none;
 }
+
+.address{
+font-style:normal;
+}
 .contacts-link{
     text-decoration: none;
     font-weight: normal;
@@ -68,12 +72,18 @@ font-weight: bold;
 }
 
 .service{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color:#4D5AE5;
     cursor: pointer;
-color: #4D5AE5;
+color: #ffffff;
 }
 
-.service:hover{
+.service:hover,
+.service:focus{
     color: #404BBF;
     background: #404BBF;
     cursor: pointer;
